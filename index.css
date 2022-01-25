@@ -68,7 +68,7 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 section {
@@ -106,4 +106,31 @@ nav a {
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
+}
+
+/* title section */
+
+.cta {
+    position: relative;
+}
+
+.text, .image {
+    display: inline-block;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    border-radius: 50%;
+}
+
+.text {
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 150px;
 }
